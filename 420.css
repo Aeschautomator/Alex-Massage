@@ -1,18 +1,19 @@
-body  {
+body, html {
     margin: 0;
     padding: 0;
+    background-image: url("/assets/images/woodedbackground.png");
+}
+.container{
     background-image: url("/assets/images/woodedbackground.png");
 }
 
 video {
   position: fixed;
-  right: 0;
-  bottom: 0;
-  height:99%;
+  right: 1;
+  bottom: 1;
 
 
 }
-
 
 .text {
     z-index:2;
